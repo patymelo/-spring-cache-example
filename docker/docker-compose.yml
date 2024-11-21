@@ -1,0 +1,6 @@
+services:
+  cache:
+    image: redis:latest
+    container_name: redisSpring
+    ports:
+      - 6379:6379
